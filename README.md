@@ -15,10 +15,6 @@ Then generate your new project:
 ```bash
 yo vlcj
 ```
-## IMPORTANT!
-
-*This project is not yet published to the public NPM repository, this will happen soon...*
-
 ## Instructions
 
 Yeoman will ask you a number of questions that will be used to tailor the generated project how you
