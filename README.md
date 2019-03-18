@@ -25,7 +25,7 @@ yo vlcj
 
 ## License
 
-GPL-3.0 © [Mark Lee](capricasoftware.co.uk)
+GPL-3.0 © [capricasoftware](capricasoftware.co.uk)
 
 
 [npm-image]: https://badge.fury.io/js/generator-vlcj.svg
