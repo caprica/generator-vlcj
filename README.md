@@ -1,4 +1,4 @@
-# generator-vlcj [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-vlcj [![NPM version][npm-image]][npm-url] 
 > Create a vlcj project that uses Maven
 
 ## Installation
@@ -16,12 +16,26 @@ Then generate your new project:
 yo vlcj
 ```
 
-## Getting To Know Yeoman
+## Instructions
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+Yeoman will ask you a number of questions that will be used to tailor the generated project how you
+want it.
+
+The generated project contains an example main class with the bare minimum code necessary to get a
+working vlcj media player.
+
+There are two project variations - one uses the vlcj media player "component" framework, the other
+uses a media player factory. 
+
+The version that uses the component framework is a bit simpler as the component framework
+encapsulates the creation of a media player factory and a video surface.
+
+The version that does not use the component framework shows explicitly creating a media player
+factory, a video surface and a media player.
+
+Both approaches are valid and current with vlcj, use whichever one suits you best.
+
+Your generated project can be built the usual way using `mvn install`.
 
 ## License
 
@@ -30,7 +44,3 @@ GPL-3.0 © [capricasoftware](capricasoftware.co.uk)
 
 [npm-image]: https://badge.fury.io/js/generator-vlcj.svg
 [npm-url]: https://npmjs.org/package/generator-vlcj
-[travis-image]: https://travis-ci.org/caprica/generator-vlcj.svg?branch=master
-[travis-url]: https://travis-ci.org/caprica/generator-vlcj
-[daviddm-image]: https://david-dm.org/caprica/generator-vlcj.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/caprica/generator-vlcj
