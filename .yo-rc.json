@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Mark Lee",
+      "authorEmail": "mark.lee@capricasoftware.co.uk",
+      "authorUrl": "capricasoftware.co.uk"
+    }
+  }
+}
