@@ -15,6 +15,9 @@ Then generate your new project:
 ```bash
 yo vlcj
 ```
+## IMPORTANT!
+
+*This project is not yet published to the public NPM repository, this will happen soon...*
 
 ## Instructions
 
