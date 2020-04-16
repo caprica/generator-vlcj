@@ -1,12 +1,12 @@
 {
   "name": "generator-vlcj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a vlcj project that uses Maven",
   "homepage": "github.com/caprica/generator-vlcj",
   "author": {
     "name": "Mark Lee",
     "email": "mark.lee@capricasoftware.co.uk",
-    "url": "capricasoftware.co.uk"
+    "url": "http://capricasoftware.co.uk"
   },
   "files": [
     "generators"
