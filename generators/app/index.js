@@ -55,7 +55,7 @@ module.exports = class extends Generator {
                 type: 'input',
                 name: 'vlcjVersion',
                 message: 'Which version of vlcj is required?',
-                default: '4.0.6'
+                default: '4.4.1'
             },
             {
                 type: 'input',
